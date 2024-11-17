@@ -280,3 +280,70 @@ body {
     font-size: 0.9rem;
     padding-left: 1.5rem;
 }
+
+@media (max-width: 768px) {
+    .main-section {
+        flex-direction: column; /* Stack sections vertically */
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .left-part, .right-part {
+        width: 100%; /* Full width for both parts */
+        padding: 1.5rem; /* Reduced padding for smaller screens */
+    }
+
+    .title {
+        font-size: 1.4rem; /* Adjust title size */
+    }
+
+    .right-part .banner .firstname,
+    .right-part .banner .lastname {
+        font-size: 2.5rem; /* Adjust font size for names */
+    }
+
+    .right-part .banner .position {
+        font-size: 1rem; /* Adjust position font size */
+    }
+
+    .work-container .work .job-date,
+    .work-container .work .company-name,
+    .work-container .work .work-text {
+        font-size: 0.85rem; /* Smaller font sizes for work details */
+    }
+
+    .references-container .references .name {
+        font-size: 1rem; /* Smaller font size for references */
+    }
+
+    .projects-title, .certifications-container h2, .languages-container h2, .hobbies-container h2 {
+        font-size: 1.2rem; /* Adjust section title size */
+    }
+
+    .skills-container .skill .right-skill .outer-layer {
+        width: 100%; /* Make skill bars full width */
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.2rem; /* Further reduce title size */
+    }
+
+    .right-part .banner .firstname,
+    .right-part .banner .lastname {
+        font-size: 2rem; /* Further reduce name font size */
+    }
+
+    .right-part .banner .position {
+        font-size: 0.9rem; /* Further reduce position font size */
+    }
+
+    .contact-container .contact-list {
+        flex-direction: column; /* Stack contact list vertically */
+    }
+
+    .left-part .photo-container img {
+        width: 180px; /* Reduce photo size */
+        height: 180px; /* Reduce photo size */
+    }
+}
