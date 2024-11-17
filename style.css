@@ -82,7 +82,7 @@ body {
 .education-container {
     margin-bottom: 2.2rem;
     font-family: 'Lato', sans-serif;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 8px; 
 }
 
@@ -166,10 +166,10 @@ body {
 }
 
 .work-container {
-    margin-top: 3.5rem;
+    margin-top: -1rem;
     font-family: 'Lato', sans-serif;
     padding: 1rem;
-    border-radius: 8px; /* Rounded corners for a softer look */
+    border-radius: 8px; 
 }
 
 .work-container .work:not(:last-child) {
@@ -250,13 +250,14 @@ body {
 .languages-container ul, .certifications-container ul, .hobbies-container ul {
     color: #4D4D4F;
     padding-left: 2.5rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .project-link {
     font-size: 0.85rem;
     color: #007BFF;
 }
+
 
 .project-link a {
     text-decoration: none;
@@ -268,7 +269,9 @@ body {
 
 .achievements-container h2 {
     font-weight: 700;
+    padding-right: 14rem;
     margin-bottom: 0.5rem;
+    background-color: #007BFF;
 }
 
 .achievements-container ul {
